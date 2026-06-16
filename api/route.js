@@ -9,7 +9,7 @@ export default async function handler(req, res) {
         return res.status(400).json({ error: 'Prompt is required' });
     }
 
-    const apiKey = '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'; // ⚠️ 替换成你的真实Key
+    const apiKey = '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'; // 
 
     const response = await fetch('https://openrouter.ai/api/v1/chat/completions', {
         method: 'POST',
