@@ -15,7 +15,7 @@ export default async function handler(req, res) {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
-            'Authorization': `Bearer ${apiKey}`,
+            'Authorization': 'Bearer ${apiKey}',
             'HTTP-Referer': 'https://your-website.vercel.app',
             'X-Title': 'AI私密陪聊'
         },
